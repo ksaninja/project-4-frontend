@@ -1,0 +1,184 @@
+.flexy{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+
+
+}
+
+.noscrollcon{
+    height: 600px;
+    width: 500px;
+    padding-top: 30px;
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.seccolor1{
+ 
+    background-color: rgb(4, 2, 24);
+    height:  680px;
+ 
+   
+    /* add back negative margin value */
+    margin: auto;
+    /* add back negative margin value */
+    
+    background: rgba(8, 42, 87, 0.568);
+    width: 1290px;
+    
+}
+
+.seccolor2{
+    background-color: rgb(4, 2, 24);
+    height:  680px;
+    width: 1290px;
+    margin: 0 -1px;
+    /* add back negative margin value */
+    padding: 0 -1px;
+    background: rgba(8, 42, 87, 0.568);
+}
+.seccolor4{
+    background-color: rgb(4, 2, 24);
+    height:  680px;
+    width: 1290px;
+    margin: 0 -1px;
+    /* add back negative margin value */
+    padding: 0 -1px;
+    background: rgba(255, 255, 255, 0.938);
+}
+.seccolor0{
+    height:  680px;
+    width: 1290px;
+    margin: 0 -1px;
+    /* add back negative margin value */
+    padding: 0 -1px;
+}
+.seccolor3{
+    background-color: rgb(4, 2, 24);
+    height: 680px;
+    width: 1290px;
+    margin: 0 -1px;
+    /* add back negative margin value */
+    padding: 0 -1px;
+    background: rgba(2, 138, 218, 0.788);
+}
+
+.rightsec{
+    position: absolute;
+  right: 25px;
+  width: 600px;
+}
+.leftsec{
+    position: absolute;
+  left: 25px;
+  width: 600px;
+}
+.radiusy{
+    border-radius: 25px;
+}
+
+.row {
+    font-size: 50px;
+    
+  }
+  .icon {
+      margin: 0px 10px;
+ }
+ .h11{
+     font-size: 38px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     color: rgb(255, 255, 255);
+     font-weight: 600px;
+
+ }
+ .centering{
+     align-content: center;
+     padding-left: 230px
+ }
+
+ .h111{
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(116, 9, 9);
+    font-weight: 600px;
+ }
+ 
+ .slog1{
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(116, 9, 9);
+    font-weight: 600px;
+ }
+
+ .prg{
+     display: inline;
+     
+    height: 600px;
+    width: 500px;
+    box-align: right;
+    margin-right: 60px;
+    font-size: 26px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(33, 3, 73);
+    font-weight: 600px;
+ }
+ 
+ .info{
+     
+     padding-left: 37px;
+     text-align: left;
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(33, 4, 161);
+    font-weight: 600px;
+ }
+
+ .navv{
+    text-align: center;
+ }
+ .navvv{
+    display: inline-block;
+ }
+
+ .hpad{
+     padding-top: 24px;
+     margin-top: 24px;
+     padding-bottom: 24px;
+     margin-bottom: 24px
+ }
+ .leftpad{
+    padding-left: 194px;
+    margin-left: 194px;
+    
+ }
+
+ .padbot {
+    padding-bottom: 194px;
+    margin-bottom: 194px;
+ }
+ .padtop {
+    
+    margin-top: 65px;
+ }
+ .headline1{
+    font-size: 34px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 197, 247);
+    font-weight: 600px;
+ }
+ .headline{
+    font-size: 34px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(109, 3, 47);
+    font-weight: 600px;
+ }
+
+ .line{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(109, 3, 47);
+    font-weight: bolder;
+ }

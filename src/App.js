@@ -12,6 +12,10 @@ import Resume from './Resume'
 import Alert from 'react-bootstrap/Alert'
 import Memories from './memory/Memories'
 // import Menu from './menu'
+import EditMemory from './memory/EditMemory'
+import Socials from './Socials'
+import Home from './Home'
+import Footer from './footer'
 class App extends Component {
   constructor () {
     super()
@@ -37,6 +41,7 @@ class App extends Component {
       // <Menu/>
       <React.Fragment>
         <Header user={user} />
+        
         {alerts.map((alert, index) => (
           <Alert key={index} dismissible variant={alert.type}>
             <Alert.Heading>
@@ -47,6 +52,9 @@ class App extends Component {
         <main className="container">
         <Route path='/Resume' render={() => (
             <Resume />
+          )} />
+          <Route path='/' render={() => (
+            <Home />
           )} />
           <Route path='/sign-up' render={() => (
             <SignUp alert={this.alert} setUser={this.setUser} />
@@ -62,12 +70,17 @@ class App extends Component {
           )} />
 
 
-             <AuthenticatedRoute user={user} path='/memories' render={() => (
+             <AuthenticatedRoute user={user} exact path='/memories' render={() => (
               <Memories user={user} />
           )} />
 
-
+            <AuthenticatedRoute user={user} exact path='/memories/:id' render={() => (
+              <EditMemory user={user} />
+          )} />
+            
+ <Footer/>
         </main>
+       
       </React.Fragment>
     )
   }
